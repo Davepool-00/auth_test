@@ -28,7 +28,7 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
-        multiDexEnabled true //
+        multiDexEnabled true // ?? allows the app to split methods into multiple DEX files
     }
 
     buildTypes {

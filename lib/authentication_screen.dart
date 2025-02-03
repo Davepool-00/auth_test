@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:local_auth/local_auth.dart';
-// !! this is using fingerprint
+// !! commented code below  is using fingerprint auth
 // class AuthenticationService {
 //   final LocalAuthentication _localAuth = LocalAuthentication();
 
@@ -36,6 +36,9 @@ import 'package:local_auth/local_auth.dart';
 //   }
 // }
 
+
+//  !! below is for facial recognition...
+//* * At the moment the physical device I am using is not being detected its facial recognition but it works in the fingerprint...
 class AuthenticationService {
   final LocalAuthentication _localAuth = LocalAuthentication();
 
