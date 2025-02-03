@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:local_auth/local_auth.dart';
-
+// !! this is using fingerprint
 // class AuthenticationService {
 //   final LocalAuthentication _localAuth = LocalAuthentication();
 
